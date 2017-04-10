@@ -9,7 +9,7 @@ The client side code is in this repo: [vplate-client-andriod](https://github.com
 + motors * 1
 + jumpers
 ### Schematics produced with KiCAD can be found in the folder schematics 
-  - or a pdf version:[schematic](schematic/vplate.pdf)
+  - or a pdf version: [schematic](Schematic/vplate.pdf)
 ## Usage
 + Connect the jumpers and wires with motor and pins
 + Setup the static IP on the Wireless Module on Raspberry pi3
