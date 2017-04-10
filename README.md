@@ -8,7 +8,8 @@ The client side code is in this repo: [vplate-client-andriod](https://github.com
 + H bridge * 1
 + motors * 1
 + jumpers
-### Schematics comming soon
+### Schematics produced with KiCAD can be found in the folder schematics 
+  - or a pdf version:[schematic](schematic/vplate.pdf)
 ## Usage
 + Connect the jumpers and wires with motor and pins
 + Setup the static IP on the Wireless Module on Raspberry pi3

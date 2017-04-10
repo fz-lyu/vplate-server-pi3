@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# L298N
+#
+DEF L298N U 0 40 Y Y 1 L N
+F0 "U" -700 800 50 H V L CNN
+F1 "L298N" -700 -800 50 H V L CNN
+F2 "DRIVER_L298N" 0 0 50 H I L CNN
+F3 "L298N" 0 0 50 H I L CNN "MP"
+F4 "Good" 0 0 50 H I L CNN "Availability"
+F5 "STMicroelectronics" 0 0 50 H I L CNN "MF"
+F6 "ZIP-15 STMicroelectronics" 0 0 50 H I L CNN "Package"
+F7 "Driver; 46 V (Max.); 15-Lead MultiW; 2AO/P High Level; 2 Drivers; -0.3V; 7V" 0 0 50 H I L CNN "Description"
+F8 "3.44 USD" 0 0 50 H I L CNN "Price"
+DRAW
+P 2 0 0 6 -700 700 700 700 N
+P 2 0 0 6 700 700 700 -700 N
+P 2 0 0 6 -700 700 -700 -700 N
+P 2 0 0 6 -700 -700 700 -700 N
+X SV-VS 4 200 800 100 D 40 40 0 0 I 
+X OUTPUT3 13 800 50 100 L 40 40 0 0 O 
+X GND 8 0 800 100 D 40 40 0 0 P 
+X OUTPUT1 2 800 400 100 L 40 40 0 0 O 
+X CSA 1 -200 -800 100 U 40 40 0 0 B 
+X OUTPUT2 3 800 150 100 L 40 40 0 0 O 
+X ENABLEA 6 -800 -200 100 R 40 40 0 0 I 
+X INPUT2 7 -800 400 100 R 40 40 0 0 I 
+X INPUT1 5 -800 600 100 R 40 40 0 0 I 
+X ENABLEB 11 -800 -400 100 R 40 40 0 0 I 
+X LV-VSS 9 -200 800 100 D 40 40 0 0 I 
+X CSB 15 200 -800 100 U 40 40 0 0 B 
+X INPUT4 12 -800 0 100 R 40 40 0 0 I 
+X INPUT3 10 -800 200 100 R 40 40 0 0 I 
+X OUTPUT4 14 800 -300 100 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
