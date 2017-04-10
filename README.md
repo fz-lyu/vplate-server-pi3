@@ -1,5 +1,6 @@
 # vplate-server-pi3
 server side on pi3 for vplate
+inspired by this repo: [raspberry-server](https://github.com/darlinglele/raspberry-server) (However the code in this repo is somewhat buggy with python3 on pi3 and the socket connection with android)
 ### client side running on android
 The client side code is in this repo: [vplate-client-andriod](https://github.com/RSLi/vplate-client-android)
 ## Requried hardwares
